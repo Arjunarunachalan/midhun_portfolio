@@ -23,16 +23,7 @@ function App() {
       {/* Hero Section  starts*/}
 
       <div className="hero custom-container  ">
-        <div className="flex justify-center items-center flex-col gap-10 pt-[200px]">
-          <img src={Hello} alt="Hello Text" className="w-[200px] z-20" />
-          <img src={Name} alt="Name" className="w-[700px] z-20" />
-          <img src={Ui} alt="Ui designer" className="w-[200px] z-20" />
-        </div>
-        <div className="flex justify-center items-center gap-5 mt-[100px]">
-          <img src={Insta} alt="" className="w-[70px]" />
-          <img src={Behance} alt="" className="w-[70px]" />
-          <img src={Dribble} alt="" className="w-[70px]" />
-        </div>
+       <h1>Hello</h1>
       </div>
       {/* Hero section ends */}
 
