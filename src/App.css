@@ -14,7 +14,7 @@
 
 .content {
     display: inline-block;
-    animation: marquee-animation 10s linear infinite; /* Adjust duration as needed */
+    animation: marquee-animation 23s linear infinite; /* Adjust duration as needed */
 }
 
 @keyframes marquee-animation {
