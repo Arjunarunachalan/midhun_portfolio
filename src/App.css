@@ -1,0 +1,27 @@
+.hero {
+  background-image: url("src/assets/Images/Hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* Marquee.css */
+.marquee {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.content {
+    display: inline-block;
+    animation: marquee-animation 10s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes marquee-animation {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
